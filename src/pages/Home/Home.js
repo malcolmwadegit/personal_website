@@ -4,7 +4,7 @@ import React from 'react';
 import './Home.css'; // Import the corresponding CSS file for styling
 import Footer from '../../Components/Footer/Footer';
 import PersonalPhoto from '../../Images/PersonalPhoto.jpg';
-import Header from '../../Components/Header/Header';
+// import Header from '../../Components/Header/Header';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="home-container">
         <header>
           <div>
-            <Header/>
+            {/* <Header/> */}
           </div>
         </header>
         <main>
